@@ -1,4 +1,4 @@
-# openqr-uk
+# OpenQR
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-openqr-uk is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://openqr.uk/
+OpenQR provides a free, open-source QR code generator that operates without watermarks, sign‑up, or tracking cookies. Users can create static QR codes entirely in the browser, ensuring no data is uploaded, while dynamic codes store only destination URLs server‑side for redirection and analytics. The platform offers extensive customization, including logo addition, color gradients, and vector exports, and supports various QR use‑cases such as Wi‑Fi, vCard, payment codes, and more. OpenQR also supplies an API, SDKs, and integrations with tools like Zapier, n8n, and Make, aiming to serve developers and businesses seeking privacy‑focused QR solutions.
+
+**Areas:** QR Codes · Generator · API · Analytics · Business Tools · Open Source
+
+## OpenQR on APIs.io
+
+Everything profiled for OpenQR is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/openqr-uk/](https://apis.io/providers/openqr-uk/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [OpenQR Me API](https://apis.io/apis/openqr-uk/openqr-uk-me-api/) — The Me API from OpenQR — 1 operation(s) for me.
+- [OpenQR OpenQR API](https://apis.io/apis/openqr-uk/openqr-uk-openqr-api-api/) — The OpenQR API API from OpenQR — 1 operation(s) for openqr api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [OpenQR Agentic Access](https://apis.io/agentic-access/openqr-uk/openqr-uk-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/openqr-uk/openqr-uk-account/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [OpenQR API Rules](https://apis.io/rules/openqr-uk/openqr-uk-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [OpenQR Authentication](https://apis.io/security/openqr-uk/openqr-uk-authentication/)
+- [OpenQR Domain Security](https://apis.io/security/openqr-uk/openqr-uk-domain-security/)
+- [OpenQR Vulnerability Disclosure](https://apis.io/security/openqr-uk/openqr-uk-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [OpenQR Plans Pricing](https://apis.io/plans/openqr-uk/openqr-uk-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://openqr.uk/)
+- [Getting started](https://openqr.uk/guides)
+- [API reference](https://openqr.uk/api)
+- [Pricing](https://openqr.uk/pricing)
+- [Blog](https://openqr.uk/blog)
+- [Security](https://openqr.uk/security)
+- [Terms of service](https://openqr.uk/terms)
+- [Privacy policy](https://openqr.uk/privacy)
+- [GitHub](https://github.com/open-qr)
+- [Status](https://openqr.uk/status)
+
+## API Evangelist rating
+
+**Kin Score 59.1** — strong · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 50.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 73.2 |
+
+**Agent readiness 50.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/openqr-uk/](https://apis.io/providers/openqr-uk/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OpenQR: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/openqr-uk/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
